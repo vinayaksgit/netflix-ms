@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class netflixindia {
-    @GetMapping("/netflixindia")
-    public String getData() {return  "NETFLIX INDIA-sub" ; }
+public class netflixuk {
+    @GetMapping("/netflixuk")
+    public String getData() {return  "NETFLIX UK-sub" ; }
 }
